@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Kalam|Stalinist+One|VT323" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+    <div class="row">
+     	<div class="col-md-6">
+          <div class="panel panel-info">
+            <div class="panel-body">
+
+
+				<h1>Keene Family Names</h1>
+				<p>Can you guess one of our names, or even the new baby name possibilities?</p>
+				<img src="assets/images/Keene_Family_Photo_Small.jpg">
+                
+              </div>
+            </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="panel panel-info">
+
+          <div class="panel-body">
+
+			<button onclick="startGame()">Press here to get started</button> <br /><br />
+			<p>Wins: </p>
+			<p id="wins"></p>
+			<p>Word: </p>
+			<p id="word"></p>
+
+			<p id="lines"></p>
+
+			<p id="response">--------------</p>
+			<p>Number of guesses remaining: </p>
+			<p id="remainingGuesses"></p>
+			<p>Letters already guessed: </p>
+			<p id="lettersGuessed"></p>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+<audio id="myAudio">
+  <source src="assets/audio/September_short.mp3" type="audio/mpeg">
+</audio>
+
+<script type="text/javascript" src="assets/javascript/game.js">
+
+
+
+</script>
+
+</body>
+</html>
